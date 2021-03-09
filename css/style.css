@@ -43,11 +43,24 @@ header nav.menu-desktop ul li{
     font-size: 1.25rem;
     text-transform: uppercase;
     padding: 8px 20px;
+    cursor: pointer;
 }
 
 header nav.menu-desktop ul li a{
     color: #b4b4b4;
     text-decoration: none;
+}
+
+header nav.menu-desktop ul li:hover{
+    background-color: #b4b4b4;
+    border-radius: 20px;
+    color: white;
+    transition: background-color 0.25s;
+}
+
+header nav.menu-desktop ul li a:hover{
+    color: white;
+    transition: 0.25s;
 }
 
 header nav.menu-mobile{
@@ -348,6 +361,7 @@ section.social .facebook p{
 
 section.contato{
     padding: 100px 4%;
+    background-color: #f8f8f8;
 }
 
 section.contato h2{
