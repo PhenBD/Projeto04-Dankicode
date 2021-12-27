@@ -59,13 +59,10 @@ header nav.menu-desktop ul li:hover{
     transition: background-color 0.25s;
 }
 
-/*
 header nav.menu-desktop ul li a:hover{
     color: white;
     transition: 0.25s;
 }
-}
-*/
 
 header nav.menu-mobile{
     display: none;
