@@ -51,6 +51,7 @@ header nav.menu-desktop ul li a{
     text-decoration: none;
 }
 
+
 header nav.menu-desktop ul li:hover{
     background-color: #b4b4b4;
     border-radius: 20px;
@@ -58,10 +59,13 @@ header nav.menu-desktop ul li:hover{
     transition: background-color 0.25s;
 }
 
+/*
 header nav.menu-desktop ul li a:hover{
     color: white;
     transition: 0.25s;
 }
+}
+*/
 
 header nav.menu-mobile{
     display: none;
