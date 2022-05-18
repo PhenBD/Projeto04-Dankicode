@@ -1,19 +1,20 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
 
-html,body{
+html,
+body {
     height: 100%;
 }
 
-.clear{
+.clear {
     clear: both;
 }
 
-.center{
+.center {
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
@@ -21,24 +22,24 @@ html,body{
 
 /*Header*/
 
-header{
+header {
     padding: 30px 4%;
 }
 
-header .logo img{
+header .logo img {
     float: left;
     width: 236px;
 }
 
-header nav.menu-desktop{
+header nav.menu-desktop {
     float: right;
 }
 
-header nav.menu-desktop ul{
+header nav.menu-desktop ul {
     list-style-type: none;
 }
 
-header nav.menu-desktop ul li{
+header nav.menu-desktop ul li {
     float: left;
     font-size: 1.25rem;
     text-transform: uppercase;
@@ -46,25 +47,25 @@ header nav.menu-desktop ul li{
     cursor: pointer;
 }
 
-header nav.menu-desktop ul li a{
+header nav.menu-desktop ul li a {
     color: #b4b4b4;
     text-decoration: none;
 }
 
 
-header nav.menu-desktop ul li:hover{
+header nav.menu-desktop ul li:hover {
     background-color: #b4b4b4;
     border-radius: 20px;
     color: white;
     transition: background-color 0.25s;
 }
 
-header nav.menu-desktop ul li a:hover{
+header nav.menu-desktop ul li a:hover {
     color: white;
     transition: 0.25s;
 }
 
-header nav.menu-mobile{
+header nav.menu-mobile {
     display: none;
     float: right;
     width: 28px;
@@ -77,7 +78,7 @@ header nav.menu-mobile{
     margin-top: 8px;
 }
 
-header nav.menu-mobile ul{
+header nav.menu-mobile ul {
     width: 100%;
     position: absolute;
     left: 0;
@@ -88,26 +89,27 @@ header nav.menu-mobile ul{
     display: none;
 }
 
-header nav.menu-mobile ul li{
+header nav.menu-mobile ul li {
     padding: 10px 0;
     font-size: 1.25rem;
     text-transform: uppercase;
     border-bottom: 1px solid #b4b4b4;
+    transform: tr;
 }
 
-header nav.menu-mobile ul li a{
+header nav.menu-mobile ul li a {
     color: #b4b4b4;
     text-decoration: none;
 }
 
 /*Mosaico*/
 
-.mosaico-single{
+.mosaico-single {
     float: left;
     width: calc(100% / 6);
 }
 
-.img-mosaico{
+.img-mosaico {
     width: 100%;
     padding-top: 100%;
     background-color: #ccc;
@@ -116,7 +118,7 @@ header nav.menu-mobile ul li a{
 
 /*Services*/
 
-section.services .center{
+section.services .center {
     max-width: 900px;
     display: flex;
     align-items: center;
@@ -125,21 +127,21 @@ section.services .center{
     padding: 0 2%;
 }
 
-section.services .center .box-service{
+section.services .center .box-service {
     background-image: url(../images/icone_dente.png);
     background-size: 18px 18px;
     background-position: center calc(100% - 10px);
     background-repeat: no-repeat;
 }
 
-section.services .center .box-service h2{
+section.services .center .box-service h2 {
     color: white;
     font-weight: normal;
     font-size: 1.2rem;
     text-transform: uppercase;
 }
 
-section.services .center .box-service p{
+section.services .center .box-service p {
     color: white;
     font-weight: normal;
     font-size: 1rem;
@@ -148,14 +150,14 @@ section.services .center .box-service p{
 }
 
 section.services .center .box-service:nth-of-type(1),
-section.services .center .box-service:nth-of-type(3){
+section.services .center .box-service:nth-of-type(3) {
     width: 30%;
     padding: 30px 2%;
     background-color: #576975;
     text-align: center;
 }
 
-section.services .center .box-service:nth-of-type(2){
+section.services .center .box-service:nth-of-type(2) {
     width: 40%;
     padding: 60px 2%;
     background-color: #688293;
@@ -165,16 +167,16 @@ section.services .center .box-service:nth-of-type(2){
 
 /*Perfil*/
 
-section.perfil .center{
+section.perfil .center {
     max-width: 1100px;
 }
 
-section.perfil .perfil-wrapper{
+section.perfil .perfil-wrapper {
     padding-top: 50%;
     position: relative;
 }
 
-section.perfil .perfil-wrapper2{
+section.perfil .perfil-wrapper2 {
     position: absolute;
     top: 0;
     left: 0;
@@ -185,39 +187,39 @@ section.perfil .perfil-wrapper2{
     padding: 0 2%;
 }
 
-section.perfil .img-perfil{
+section.perfil .img-perfil {
     width: 40%;
     height: 100%;
     background-image: url(../images/img_perfil.png);
     background-size: 100% 100%;
 }
 
-section.perfil .text-perfil{
+section.perfil .text-perfil {
     width: 60%;
     padding: 0 30px;
 }
 
-section.perfil .text-perfil h2{
+section.perfil .text-perfil h2 {
     color: #698293;
     font-size: 1.3rem;
 }
 
-section.perfil .text-perfil p{
+section.perfil .text-perfil p {
     color: #4b4b4b;
     font-size: 1rem;
 }
 
-section.perfil .text-perfil p:first-of-type{
+section.perfil .text-perfil p:first-of-type {
     margin-top: 10px;
 }
 
 /*Videos*/
 
-section.videos{
+section.videos {
     padding: 50px 0;
 }
 
-section.videos .box-video{
+section.videos .box-video {
     float: left;
     position: relative;
     width: 33.3%;
@@ -225,38 +227,39 @@ section.videos .box-video{
     padding-top: calc(33.3% * 0.6);
 }
 
-section.videos iframe{
+section.videos iframe {
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
+
 }
 
 /*Tratamentos*/
 
-section.tratamentos > h2{
+section.tratamentos>h2 {
     font-size: 2rem;
     color: #698293;
     text-align: center;
     padding: 40px 0 50px 0;
 }
 
-section.tratamentos .box-tratamentos{
+section.tratamentos .box-tratamentos {
     float: left;
     width: 33.3%;
 }
 
-section.tratamentos .tratamento-single{
+section.tratamentos .tratamento-single {
     padding: 20px;
 }
 
-section.tratamentos .tratamento-single h2{
+section.tratamentos .tratamento-single h2 {
     font-size: 1.4rem;
     color: #737373;
 }
 
-section.tratamentos .tratamento-single p{
+section.tratamentos .tratamento-single p {
     font-size: 1.1rem;
     color: #b4b4b4;
     padding: 10px 0;
@@ -264,38 +267,38 @@ section.tratamentos .tratamento-single p{
 
 /*Depoimentos*/
 
-section.depoimentos > h2{
+section.depoimentos>h2 {
     font-size: 2rem;
     color: #698293;
     text-align: center;
     padding: 100px 0 40px 0;
 }
 
-section.depoimentos .center{
+section.depoimentos .center {
     padding: 40px 0;
     max-width: 600px;
 }
 
-section.depoimentos .depoimento-single{
+section.depoimentos .depoimento-single {
     text-align: center;
 }
 
-section.depoimentos .depoimento-single p{
+section.depoimentos .depoimento-single p {
     font-size: 1.2rem;
     color: #4b4b4b;
 }
 
-section.depoimentos .depoimento-single .nome-depoimento{
+section.depoimentos .depoimento-single .nome-depoimento {
     padding: 20px 0;
 }
 
-.nome-depoimento img{
+.nome-depoimento img {
     width: 48px;
     height: 48px;
     border-radius: 50%;
 }
 
-.nome-depoimento span{
+.nome-depoimento span {
     font-size: 1.2rem;
     color: #4b4b4b;
     position: relative;
@@ -305,7 +308,7 @@ section.depoimentos .depoimento-single .nome-depoimento{
 
 /*Social*/
 
-section.social .instagram{
+section.social .instagram {
     float: left;
     width: 100%;
     padding: 40px 0;
@@ -313,24 +316,24 @@ section.social .instagram{
     text-align: center;
 }
 
-section.social .instagram img{
+section.social .instagram img {
     width: 48px;
     height: 48px;
 }
 
-section.social .instagram p{
+section.social .instagram p {
     color: white;
     font-size: 1.2rem;
     padding-top: 15px;
     line-height: 30px;
 }
 
-section.social .mosaico-social{
+section.social .mosaico-social {
     float: left;
     width: 100%;
 }
 
-.mosaico-social .img-mosaico-social{
+.mosaico-social .img-mosaico-social {
     float: left;
     width: calc(100% / 9);
     padding-top: calc(100% / 9);
@@ -338,7 +341,7 @@ section.social .mosaico-social{
     background-color: #ccc;
 }
 
-section.social .facebook{
+section.social .facebook {
     float: left;
     width: 100%;
     padding: 40px 0;
@@ -346,12 +349,12 @@ section.social .facebook{
     text-align: center;
 }
 
-section.social .facebook img{
+section.social .facebook img {
     width: auto;
     height: auto;
 }
 
-section.social .facebook p{
+section.social .facebook p {
     color: white;
     font-size: 1.2rem;
     padding-top: 15px;
@@ -360,44 +363,44 @@ section.social .facebook p{
 
 /*Contato*/
 
-section.contato{
+section.contato {
     padding: 100px 4%;
     background-color: #f8f8f8;
 }
 
-section.contato h2{
+section.contato h2 {
     font-size: 2rem;
     color: #698293;
     text-align: center;
 }
 
-section.contato form{
+section.contato form {
     width: 100%;
     max-width: 500px;
     margin: 40px auto;
 }
 
-.w100{
+.w100 {
     width: 100%;
 }
 
-.w50{
+.w50 {
     width: 50%;
 }
 
-.form-wrapper{
+.form-wrapper {
     float: left;
     margin-top: 10px;
     padding: 0 10px;
 }
 
-.form-wrapper span{
+.form-wrapper span {
     font-size: 1.2rem;
     color: #b4b4b4;
 }
 
 .form-wrapper input[type=text],
-.form-wrapper input[type=email]{
+.form-wrapper input[type=email] {
     width: 100%;
     height: 35px;
     line-height: 35px;
@@ -406,7 +409,7 @@ section.contato form{
     margin-top: 10px;
 }
 
-.form-wrapper textarea{
+.form-wrapper textarea {
     width: 100%;
     padding: 15px;
     height: 121px;
@@ -417,13 +420,13 @@ section.contato form{
 
 .form-wrapper input[type=text]:focus,
 .form-wrapper input[type=email]:focus,
-.form-wrapper textarea:focus{
+.form-wrapper textarea:focus {
     outline: 0;
     border: 3px solid #c5c5c5;
     background-color: #fafafa;
 }
 
-.form-wrapper input[type=submit]{
+.form-wrapper input[type=submit] {
     width: 100px;
     height: 35px;
     border: 0;
@@ -437,111 +440,111 @@ section.contato form{
 
 /*Footer*/
 
-footer{
+footer {
     padding: 50px 0;
     background-color: #688293;
 }
 
-footer .center{
+footer .center {
     max-width: 1100px;
 }
 
-footer .footer-block{
+footer .footer-block {
     float: left;
     width: 33.3%;
     padding: 0 4%;
 }
 
-footer .footer-block h2{
+footer .footer-block h2 {
     color: white;
     font-weight: normal;
     font-size: 1.5rem;
 }
 
-footer .footer-block p{
+footer .footer-block p {
     color: white;
     font-size: 1rem;
     margin-top: 10px;
 }
 
-@media screen and (max-width: 1024px){
-    .mosaico-social .img-mosaico-social{
+@media screen and (max-width: 1024px) {
+    .mosaico-social .img-mosaico-social {
         width: calc(100% / 6);
         padding-top: calc(100% / 6);
     }
 
-    .mosaico-social div:nth-of-type(n+7){
+    .mosaico-social div:nth-of-type(n+7) {
         display: none;
     }
 }
 
-@media screen and (max-width: 960px){
-    header{
+@media screen and (max-width: 960px) {
+    header {
         text-align: center;
     }
 
-    header .logo img{
+    header .logo img {
         float: none;
     }
-    
-    header nav.menu-desktop{
+
+    header nav.menu-desktop {
         float: none;
         display: inline-block;
         margin-top: 15px;
     }
 
-    header nav.menu-desktop ul li{
+    header nav.menu-desktop ul li {
         float: none;
         display: inline-block;
     }
 }
 
-@media screen and (max-width: 768px){
-    header nav.menu-desktop{
+@media screen and (max-width: 768px) {
+    header nav.menu-desktop {
         display: none;
     }
 
-    header nav.menu-mobile{
+    header nav.menu-mobile {
         display: block;
     }
 
-    header{
+    header {
         text-align: center;
     }
 
-    header .logo img{
+    header .logo img {
         float: left;
     }
 
-    section.services .center{
+    section.services .center {
         flex-direction: column;
     }
 
     section.services .center .box-service:nth-of-type(1),
-    section.services .center .box-service:nth-of-type(3){
+    section.services .center .box-service:nth-of-type(3) {
         width: 75%;
         max-width: 500px;
         padding: 30px 4%;
     }
 
-    section.services .center .box-service:nth-of-type(2){
+    section.services .center .box-service:nth-of-type(2) {
         width: 90%;
         max-width: 600px;
         padding: 60px 4%;
     }
 
-    section.perfil .perfil-wrapper{
+    section.perfil .perfil-wrapper {
         padding-top: 0;
     }
 
-    section.perfil .perfil-wrapper2{
+    section.perfil .perfil-wrapper2 {
         display: inline-block;
         text-align: center;
         height: auto;
         position: static;
     }
-    
-    section.perfil .img-perfil{
+
+    section.perfil .img-perfil {
         width: 60%;
         padding-top: 80%;
         display: inline-block;
@@ -549,8 +552,8 @@ footer .footer-block p{
         background-image: url(../images/img_perfil.png);
         background-size: 100% 100%;
     }
-    
-    section.perfil .text-perfil{
+
+    section.perfil .text-perfil {
         display: inline-block;
         width: 100%;
         padding: 0 30px;
@@ -558,11 +561,11 @@ footer .footer-block p{
         margin-top: 20px;
     }
 
-    section.videos{
+    section.videos {
         text-align: center;
     }
 
-    section.videos .box-video{
+    section.videos .box-video {
         float: none;
         position: relative;
         display: inline-block;
@@ -570,8 +573,8 @@ footer .footer-block p{
         border: 10px solid white;
         padding-top: calc(70% * 0.6);
     }
-    
-    section.videos iframe{
+
+    section.videos iframe {
         position: absolute;
         left: 0;
         top: 0;
@@ -579,24 +582,24 @@ footer .footer-block p{
         height: 100%;
     }
 
-    .mosaico-social .img-mosaico-social{
+    .mosaico-social .img-mosaico-social {
         width: calc(100% / 3);
         padding-top: calc(100% / 3);
     }
 
-    .mosaico-social div:nth-of-type(n+4){
+    .mosaico-social div:nth-of-type(n+4) {
         display: none;
     }
 }
 
-@media screen and (max-width: 580px){
-    section.perfil .img-perfil{
+@media screen and (max-width: 580px) {
+    section.perfil .img-perfil {
         width: 80%;
         padding-top: 100%;
 
     }
 
-    section.videos .box-video{
+    section.videos .box-video {
         float: none;
         position: relative;
         display: inline-block;
@@ -605,15 +608,15 @@ footer .footer-block p{
         padding-top: calc(100% * 0.6);
     }
 
-    .w50{
+    .w50 {
         width: 100%;
     }
 
-    footer{
+    footer {
         text-align: center;
     }
 
-    footer .footer-block{
+    footer .footer-block {
         float: none;
         width: 100%;
         margin-top: 15px;
